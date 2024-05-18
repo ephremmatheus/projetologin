@@ -14,13 +14,15 @@ Rosa: #D57ACE
 Ciano: #1C8988 
 */
 
+/*TABLET*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(to bottom, #461C89, #1C8988);
     }
 
     section#login{
-        width: 80vw;    
+        width: 80vw;
+        height: 260px;    
     }
 
     div#imagem{
@@ -35,10 +37,11 @@ Ciano: #1C8988
     }
 
     div#formulario>p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
+/*TELAS GRANDES*/
 @media screen and (min-width: 992px){
     body{
         background-image: linear-gradient(to bottom, #461C89, #1C8988);
@@ -46,7 +49,7 @@ Ciano: #1C8988
 
     section#login{
         width: 950px;
-        height: 55%;
+        height: 52%;
     }
 
     div#imagem{
@@ -61,10 +64,10 @@ Ciano: #1C8988
     }
 
     div#formulario>h1{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     
     div#formulario>p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
